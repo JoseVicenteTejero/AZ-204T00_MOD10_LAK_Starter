@@ -31,6 +31,7 @@ Task 2: Open Azure Cloud Shell
 2. - When a      dialog box prompts you to create a new storage account to begin using the      shell, accept the default settings, and then select **Create      storage**.
 
 **Note**: Wait for Cloud Shell to finish its initial setup procedures before continuing with the lab. If you don’t notice the **Cloud Shell** configuration options, this is most likely because you’re using an existing subscription with this course’s labs. The labs are written with the presumption that you’re using a new subscription.
+![img](blob/master/clip_image002.png
 
 ![img](clip_image002.png)
 
