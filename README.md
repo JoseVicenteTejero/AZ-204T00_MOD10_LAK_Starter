@@ -33,6 +33,7 @@ Task 2: Open Azure Cloud Shell
 **Note**: Wait for Cloud Shell to finish its initial setup procedures before continuing with the lab. If you don’t notice the **Cloud Shell** configuration options, this is most likely because you’re using an existing subscription with this course’s labs. The labs are written with the presumption that you’re using a new subscription.
 ![img](blob/master/clip_image002.png
 
+
 ![img](clip_image002.png)
 
 
@@ -42,8 +43,8 @@ Task 2: Open Azure Cloud Shell
 CodeCopy
 
 az --version
-
 ![img](clip_image004.png)
+
 
 Task 3: View the Microsoft.EventGrid provider registration
 
@@ -54,6 +55,7 @@ Task 3: View the Microsoft.EventGrid provider registration
 CodeCopy
 
 az --help
+
 
 ![img](clip_image006.png)
 
