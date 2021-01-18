@@ -42,7 +42,7 @@ CodeCopy
 
 az --version
 
-![img](file:///C:/Users/josev/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png)
+![img](clip_image004.png)
 
 Task 3: View the Microsoft.EventGrid provider registration
 
@@ -54,7 +54,7 @@ CodeCopy
 
 az --help
 
-![img](file:///C:/Users/josev/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png)
+![img](clip_image006.png)
 
 1. 1. Enter      the following command, and then select Enter to get a list of the      commands that are available for resource providers:
 
