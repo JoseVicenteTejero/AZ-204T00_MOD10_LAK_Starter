@@ -99,7 +99,7 @@ Task 4: Create a custom Event Grid topic
 
 **Note**: Wait for Azure to finish creating the topic before you continue with the lab. You’ll receive a notification when the app is created.
 
-![img](file:///C:/Users/josev/AppData/Local/Temp/msohtmlclip1/01/clip_image008.png)
+![img](clip_image008.png)
 
 Task 5Deploy the Azure Event Grid viewer to a web app
 
@@ -125,7 +125,7 @@ Task 5Deploy the Azure Event Grid viewer to a web app
    9. Leave      the **SKU and size** section set to its default value.
    10. Select **Next:      Docker**.
 
-![img](file:///C:/Users/josev/AppData/Local/Temp/msohtmlclip1/01/clip_image010.png)
+![img](clip_image010.png)
 
 1. On     the **Docker** tab, perform the following actions:
 
@@ -141,7 +141,7 @@ Task 5Deploy the Azure Event Grid viewer to a web app
 
 **Note**: Wait for Azure to finish creating the web app before you continue with the lab. You’ll receive a notification when the app is created.
 
-![img](file:///C:/Users/josev/AppData/Local/Temp/msohtmlclip1/01/clip_image012.png)
+![img](clip_image012.png)
 
 Review
 
@@ -155,7 +155,7 @@ Task 1: Access the Event Grid Viewer web application
 2. On     the **Resource groups** blade, select the **PubSubEvents** resource     group that you created earlier in this lab.
 3. On     the **PubSubEvents** blade, select the **eventviewer\*[yourname]\*** web     app that you created earlier in this lab.
 4. On     the **App Service** blade, in the **Settings** category,     select the **Properties** link.
-5. ![img](file:///C:/Users/josev/AppData/Local/Temp/msohtmlclip1/01/clip_image013.png)
+5. ![img](clip_image013.png)
 6. In     the **Properties** section, record the value of the **URL** text     box. You’ll use this value later in the lab.
 7. Select **Overview**.
 8. In     the **Overview** section, select **Browse**.
@@ -185,13 +185,13 @@ Task 2: Create new subscription
 
 **Note**: For example, if your **Web App URL** value is **http://eventviewerstudent.azurewebsites.net/**, then your **Subscriber Endpoint** would be **https://eventviewerstudent.azurewebsites.net/api/updates**.
 
-![img](file:///C:/Users/josev/AppData/Local/Temp/msohtmlclip1/01/clip_image015.png)
+![img](clip_image015.png)
 
 1. 1. Select **Create**.
 
 **Note**: Wait for Azure to finish creating the subscription before you continue with the lab. You’ll receive a notification when the app is created.
 
-![img](file:///C:/Users/josev/AppData/Local/Temp/msohtmlclip1/01/clip_image017.png)
+![img](clip_image017.png)
 
 Task 3: Observe the subscription validation event
 
@@ -200,7 +200,7 @@ Task 3: Observe the subscription validation event
 3. Select     the event and review its JSON content.
 4. Return     to your currently open browser window with the Azure portal.
 
-![img](file:///C:/Users/josev/AppData/Local/Temp/msohtmlclip1/01/clip_image019.png)
+![img](clip_image019.png)
 
 Task 4: Record subscription credentials
 
@@ -211,7 +211,7 @@ Task 4: Record subscription credentials
 5. In     the **Settings** category, select the **Access keys** link.
 6. In     the **Access keys** section, record the value of the **Key     1** text box. You’ll use this value later in the lab.
 
-![img](file:///C:/Users/josev/AppData/Local/Temp/msohtmlclip1/01/clip_image021.png)
+![img](clip_image021.png)
 
 Review
 
@@ -233,7 +233,7 @@ dotnet new console --name EventPublisher --output . -f netcoreapp3.1
 
 **Note**: The **dotnet new** command will create a new **console** project in a folder with the same name as the project.
 
-![img](file:///C:/Users/josev/AppData/Local/Temp/msohtmlclip1/01/clip_image023.png)
+![img](clip_image023.png)
 
 1. At the     command prompt, enter the following command, and then select Enter to     import version 3.2.0 of **Microsoft.Azure.EventGrid** from     NuGet:
 
@@ -243,7 +243,7 @@ dotnet add package Microsoft.Azure.EventGrid --version 3.2.0
 
 **Note**: The **dotnet add package** command will add the **Microsoft.Azure.EventGrid** package from NuGet. For more information, go to [Microsoft.Azure.EventGrid](https://www.nuget.org/packages/Microsoft.Azure.EventGrid/3.2.0).
 
-![img](file:///C:/Users/josev/AppData/Local/Temp/msohtmlclip1/01/clip_image025.png)
+![img](clip_image025.png)
 
 1. At the     command prompt, enter the following command, and then select Enter to     build the .NET web application:
 
@@ -253,7 +253,7 @@ dotnet build
 
 1. Select **Kill     Terminal** or the **Recycle Bin** icon to close the     currently open terminal and any associated processes.
 
-![img](file:///C:/Users/josev/AppData/Local/Temp/msohtmlclip1/01/clip_image027.png)
+![img](clip_image027.png)
 
 Task 2: Modify the Program class to connect to Event Grid
 
@@ -575,7 +575,7 @@ dotnet run
 
 **Note**: If there are any build errors, review the **Program.cs** file in the **Allfiles (F):\Allfiles\Labs\10\Solution\EventPublisher** folder.
 
-![img](file:///C:/Users/josev/AppData/Local/Temp/msohtmlclip1/01/clip_image028.png)
+![img](clip_image028.png)
 
 1. Observe     the success message output from the currently running console application.
 2. Select **Kill     Terminal** or the **Recycle Bin** icon to close the     currently open terminal and any associated processes.
@@ -587,7 +587,7 @@ Task 4: Observe published events
 3. Select     any of the events and review its JSON content.
 4. Return     to the Azure portal.
 
-![img](file:///C:/Users/josev/AppData/Local/Temp/msohtmlclip1/01/clip_image030.png)
+![img](clip_image030.png)
 
 Review
 
@@ -630,6 +630,7 @@ Review
 
 In this exercise, you cleaned up your subscription by removing the resource groups used in this lab.
 
+ 
  
 PROBLEMAS
 No
